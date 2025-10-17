@@ -34,7 +34,7 @@ This document serves as the central directory for exploring career paths in Info
 | 15 | **[IT Support Specialist/Help Desk](Roles/IT_Support.md)** | **$45,000 - $65,000+** | **Steady** (Constant need for hands-on support) | **Stable Growth** *(~5-7%, driven by general tech reliance, despite some automation)* | OS/Hardware Troubleshooting, Network Fundamentals, Ticketing Systems, Excellent Customer Service, Active Directory. |
 
 ---
-
+**[View AI Impact Analysis: Skills at Risk and Future Growth (2024 Data)](AI_Mastery_Analysis.md)**
 ## 📚 References
 
 The projected growth rates are primarily based on the U.S. Bureau of Labor Statistics (BLS) Occupational Outlook Handbook (OOH) for the 2024-2034 period, grouped by occupation code:
