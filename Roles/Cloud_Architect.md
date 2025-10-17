@@ -56,6 +56,3 @@ While top universities produce high-earning graduates, many successful Architect
 * **Highest-Paying Degrees:** Master’s degrees in Cloud Computing Systems, Data Engineering, or Computer Science from institutions with strong research programs like **MIT, Stanford, and Carnegie Mellon University (CMU)** often lead to the highest starting salaries.
 * **Alternative Path:** Existing Software Developers or System Administrators can bridge to this role through **Intensive Cloud Certifications** (e.g., AWS/Azure Professional) combined with a strong portfolio of projects demonstrating cloud design competence.
 
-***
-
-**Action for GitHub:** Save the content above in your repository as `roles/Cloud_Architect.md`. Then, ensure the main `README.md` file links to it correctly (e.g., `[Cloud Architect (AWS/Azure)](roles/Cloud_Architect.md)`).
