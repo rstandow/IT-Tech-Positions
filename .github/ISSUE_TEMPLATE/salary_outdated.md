@@ -1,9 +1,10 @@
 ---
 name: Salary Data Outdated
 about: Report outdated or incorrect salary information for a role
-title: '[DATA] Salary outdated for [ROLE NAME]'
-labels: data-update, salary
+title: "[DATA] Salary outdated for [ROLE NAME]"
+labels: ''
 assignees: ''
+
 ---
 
 **Which role has outdated salary data?**

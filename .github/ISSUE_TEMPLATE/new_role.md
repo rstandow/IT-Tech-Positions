@@ -1,9 +1,10 @@
 ---
 name: New Role Suggestion
 about: Suggest a new IT role to add to the repository
-title: '[NEW ROLE] [Role Name]'
-labels: new-role, enhancement
+title: "[NEW ROLE] [Role Name]"
+labels: enhancement
 assignees: ''
+
 ---
 
 **Proposed Role Title:**

@@ -2,8 +2,9 @@
 name: General Feedback
 about: General feedback, questions, or suggestions
 title: ''
-labels: feedback
+labels: ''
 assignees: ''
+
 ---
 
 **What type of feedback is this?**
