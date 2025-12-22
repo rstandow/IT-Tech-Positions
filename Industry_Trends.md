@@ -1,5 +1,4 @@
 # Industry Trends and Market Forces Shaping IT Careers
-# Industry Trends and Market Forces Shaping IT Careers
 
 ## Table of Contents
 

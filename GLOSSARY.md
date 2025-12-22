@@ -1,5 +1,4 @@
 # IT Industry Glossary
-# IT Industry Glossary
 
 A beginner-friendly guide to common acronyms, slang, and terminology used in the IT career landscape.
 

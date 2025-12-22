@@ -1,5 +1,4 @@
 # Getting Started in IT: A Decision Framework for Newcomers
-# Getting Started in IT: A Decision Framework for Newcomers
 
 ## Table of Contents
 
