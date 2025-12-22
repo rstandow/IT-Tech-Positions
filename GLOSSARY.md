@@ -1,4 +1,28 @@
 # IT Industry Glossary
+# IT Industry Glossary
+
+A beginner-friendly guide to common acronyms, slang, and terminology used in the IT career landscape.
+
+## Table of Contents
+
+- [Companies & Organizations](#companies--organizations)
+- [Compensation & Benefits](#compensation--benefits)
+- [Salary & Negotiation Terms](#salary--negotiation-terms)
+- [Job Levels & Roles](#job-levels--roles)
+- [Development & Engineering](#development--engineering)
+- [Infrastructure & Cloud](#infrastructure--cloud)
+- [Site Reliability & Operations](#site-reliability--operations)
+- [Data & Analytics](#data--analytics)
+- [AI & Machine Learning](#ai--machine-learning)
+- [Work Culture & Practices](#work-culture--practices)
+- [Hiring & Interviews](#hiring--interviews)
+- [Remote Work & Freelancing](#remote-work--freelancing)
+- [Certifications](#certifications)
+- [Slang & Informal Terms](#slang--informal-terms)
+- [Basic Tools & Environment](#basic-tools--environment-essential-for-beginners)
+- [Additional AI/ML Terms](#additional-aiml-terms-expanded)
+
+---
 
 A beginner-friendly guide to common acronyms, slang, and terminology used in the IT career landscape.
 

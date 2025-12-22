@@ -1,4 +1,24 @@
 # Getting Started in IT: A Decision Framework for Newcomers
+# Getting Started in IT: A Decision Framework for Newcomers
+
+## Table of Contents
+
+- [Should You Even Enter IT?](#should-you-even-enter-it)
+- [Choosing Your First Role](#choosing-your-first-role)
+- [Minimum Viable Skills by Role](#minimum-viable-skills-by-role-entry-level)
+- [Action Plan](#action-plan-your-first-90-days)
+- [Free and Low-Cost Resources](#free-and-low-cost-resources)
+- [Career Progression Flowchart](#career-progression-flowchart)
+- [Interview Preparation Guide](#interview-preparation-guide)
+  - [Interview Types](#interview-types)
+  - [Role-Specific Preparation](#role-specific-preparation)
+  - [Behavioral Interview Mastery](#behavioral-interview-mastery-star-method)
+  - [Salary Negotiation](#salary-negotiation)
+- [Reality Check](#reality-check-brutal-honesty)
+- [Key Takeaways](#key-takeaways)
+
+---
+
 
 So you're considering a career in Information Technology. This guide helps you determine if IT is right for you and provides concrete first steps.
 

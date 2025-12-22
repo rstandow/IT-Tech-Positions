@@ -1,4 +1,46 @@
 # IT Homelab Guide: Learn by Doing
+# IT Homelab Guide: Learn by Doing
+
+## Table of Contents
+
+- [Why Build a Homelab?](#why-build-a-homelab)
+- [Budget Tier 1: Under $500](#budget-tier-1-under-500-the-starter-lab)
+  - [Hardware Options](#hardware-option-a-used-business-pc)
+  - [Software Stack](#software-stack-all-free)
+  - [Skills to Practice](#skills-to-practice)
+- [Budget Tier 2: $1,000-$1,500](#budget-tier-2-1000-1500-the-serious-lab)
+  - [Hardware Setup](#hardware-setup)
+  - [Software Stack](#software-stack-production-grade)
+  - [Advanced Skills](#skills-to-practice-advanced)
+- [Homelab Learning Path by Career Goal](#homelab-learning-path-by-career-goal)
+  - [IT Support → System Administrator](#path-1-it-support--system-administrator)
+  - [Developer → DevOps Engineer](#path-2-developer--devops-engineer)
+  - [System Admin → SRE](#path-3-system-admin--site-reliability-engineer)
+  - [Cybersecurity Focus](#path-4-cybersecurity-focus)
+- [Cost Breakdown by Skill Level](#cost-breakdown-by-skill-level)
+- [Common Homelab Questions](#common-homelab-questions)
+- [Progression Timeline](#progression-timeline)
+- [Documentation Guide](#documentation-the-skill-that-separates-professionals-from-hobbyists)
+  - [What to Document](#what-to-document)
+  - [How to Document](#how-to-document-the-it-way)
+  - [Documentation Tools](#documentation-tools-comparison)
+- [Video Tutorials](#video-tutorials-step-by-step-setup-guides)
+  - [Proxmox Setup](#proxmox-setup)
+  - [Docker & Kubernetes](#docker--kubernetes)
+  - [Monitoring](#monitoring-prometheus--grafana)
+  - [Recommended Channels](#recommended-channels-to-subscribe)
+- [Home Automation & IoT](#home-automation--iot-integration)
+  - [Home Assistant](#why-home-assistant-in-your-homelab)
+  - [Advanced Skills Projects](#advanced-skills-through-home-assistant-projects)
+  - [12-Week Learning Path](#12-week-home-assistant-learning-path)
+- [Home Automation Alternatives](#home-automation--dashboard-alternatives)
+  - [openHAB, Domoticz, Node-RED](#home-automation-platforms-ha-alternatives)
+  - [Homarr, Homer, Heimdall, Dashy](#homelab-dashboards-service-organization)
+  - [Comparison & Recommendations](#comparison-table-dashboards)
+- [Resources](#resources)
+
+---
+
 
 Building a homelab is one of the best ways to gain hands-on IT experience without risking production systems. This guide provides budget-friendly setups and skills to practice.
 

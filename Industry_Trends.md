@@ -1,4 +1,23 @@
 # Industry Trends and Market Forces Shaping IT Careers
+# Industry Trends and Market Forces Shaping IT Careers
+
+## Table of Contents
+
+- [AI and Automation Impact](#ai-and-automation-impact)
+- [Immigration Policy and H-1B Visa Changes](#immigration-policy-and-h-1b-visa-changes)
+- [Data Center and Infrastructure Investment](#data-center-and-infrastructure-investment)
+- [Remote Work Normalization](#remote-work-normalization)
+- [Tech Layoffs and Hiring Cycles](#tech-layoffs-and-hiring-cycles)
+- [Other Significant Trends](#other-significant-trends)
+  - [Chip Manufacturing Onshoring](#chip-manufacturing-onshoring-chips-act)
+  - [Cybersecurity Arms Race](#cybersecurity-arms-race)
+  - [Cloud Consolidation](#cloud-consolidation)
+  - [Open Source AI Models](#open-source-ai-models)
+- [How to Use This Information](#how-to-use-this-information)
+- [Key Takeaways](#key-takeaways)
+
+---
+
 
 Understanding the major forces impacting the US IT job market helps you make informed career decisions. This section provides an objective, non-political analysis of key trends.
 
