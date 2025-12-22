@@ -57,3 +57,7 @@ Advanced degrees in fields focused on data infrastructure are highly advantageou
 * **Highest-Paying Degrees:** Master’s in Computer Science (CS), Master’s in Information Technology Management (MSIT), or Master's in Data Engineering.
 * **Core Studies:** Degrees emphasizing **Data Structures, Operating Systems, and Advanced Database Management** provide the best foundation.
 * **Alternative Path:** Many DBAs start as System Administrators or SQL Developers and acquire the necessary deep technical knowledge and certifications through self-study and on-the-job experience.
+
+---
+
+**Last Updated:** December 2024 | **Next Review:** March 2025

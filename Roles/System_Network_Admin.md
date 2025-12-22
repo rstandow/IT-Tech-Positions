@@ -58,3 +58,7 @@ The foundation for this career is technical mastery, often achieved through a co
 * **Certifications:** The core path moves from **CompTIA A+** (often gained through an entry-level help desk job) to **Network+** or **CCNA**, and finally to **Cloud Admin** certs (AWS SysOps or Azure Admin).
 * **Career Ladder:** System/Network Admin -> Cloud Administrator -> **DevOps Engineer** (if automation skills are added) or **Network Architect** (if design skills are added).
 
+
+---
+
+**Last Updated:** December 2024 | **Next Review:** March 2025

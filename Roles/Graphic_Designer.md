@@ -56,3 +56,6 @@ High-quality design programs focus on balancing artistic vision with technical, 
 * **Top US Design Schools:** Rhode Island School of Design (**RISD**), **Pratt Institute**, ArtCenter College of Design, and **Carnegie Mellon University** (for design/technology fusion).
 * **University Programs:** Programs integrated with strong computer science or communication departments often produce graduates with higher digital salaries (e.g., University of Southern California, Boston University).
 * **Portfolio Focus:** Regardless of the school, the quality and commercial relevance of the **portfolio** is the single most important factor for landing a high-paying job.
+---
+
+**Last Updated:** December 2024 | **Next Review:** March 2025

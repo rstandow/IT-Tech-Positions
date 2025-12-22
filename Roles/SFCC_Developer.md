@@ -107,3 +107,6 @@ For IT Managers, certifications shift from deep technical skills to leadership, 
 | **Cloud Certifications (e.g., AWS Cloud Practitioner)** | AWS/Azure/GCP | Demonstrating a fundamental understanding of cloud costs and migration strategy. |
 
 ---
+---
+
+**Last Updated:** December 2024 | **Next Review:** March 2025

@@ -58,3 +58,7 @@ The highest salaries often go to those with strong quantitative backgrounds from
 * **Carnegie Mellon University (CMU)** (Master's in Computational Data Science)
 * **University of California, Berkeley (UCB)** (Master of Information and Data Science)
 * **Georgia Institute of Technology (Georgia Tech)** (Master's in Analytics)
+
+---
+
+**Last Updated:** December 2024 | **Next Review:** March 2025

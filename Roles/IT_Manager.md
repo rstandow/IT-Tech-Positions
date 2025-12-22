@@ -58,3 +58,7 @@ While a CS degree gets a manager started, advanced management degrees are a fast
 * **Highest-Paying Degrees:** **Master of Business Administration (MBA)** with a concentration in Information Systems or Technology Management.
 * **Highly Valued Degrees:** Master’s in Information Systems (MIS) or a specialized Master’s in Cyber Security Management.
 * **Experience is Key:** Unlike developer roles, the entry point requires 5+ years of experience working as a senior engineer, team lead, or system administrator.
+
+---
+
+**Last Updated:** December 2024 | **Next Review:** March 2025

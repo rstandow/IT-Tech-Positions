@@ -57,3 +57,7 @@ DevOps Engineers often start as either a developer or a system administrator bef
 * **Degrees:** Bachelor's in Computer Science or Software Engineering. A graduate degree is not mandatory but helps for advanced/research-heavy roles (like MLOps).
 * **Skills Pipeline:** The most effective path involves mastering Linux and a core programming language (Python) before moving onto the major toolsets (Docker, Kubernetes, Terraform) and cloud platforms.
 * **Career Ladder:** The common next step is often **Site Reliability Engineer (SRE)** or **Platform Engineer**, focusing purely on the long-term health and automation of the delivery system.
+
+---
+
+**Last Updated:** December 2024 | **Next Review:** March 2025

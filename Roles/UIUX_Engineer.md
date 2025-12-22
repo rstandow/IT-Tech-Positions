@@ -57,3 +57,7 @@ High-paying roles often go to graduates from multidisciplinary programs that ble
 * **Human-Computer Interaction (HCI) Leaders:** **Carnegie Mellon University (CMU)** (MS-HCI), **University of Washington** (MHCI+D), **Georgia Institute of Technology** (MS-HCI).
 * **Information Science/Design:** UC Berkeley (MIMS), MIT (System Design and Management).
 * **Art/Design Schools:** Programs that integrate technology into their core curriculum, like the **Pratt Institute** or **Rhode Island School of Design (RISD)**.
+
+---
+
+**Last Updated:** December 2024 | **Next Review:** March 2025

@@ -59,3 +59,7 @@ Formal degrees are not mandatory for entry, but they accelerate career movement 
 * **Career Ladder:** Successful specialists frequently pivot to higher-paying roles after gaining experience and pursuing specialized certifications:
     * **Cybersecurity Analyst:** (requires CompTIA Security+ or CCNA Security)
     * **Network Administrator:** (requires CompTIA Network+ or CCNA)
+
+---
+
+**Last Updated:** December 2024 | **Next Review:** March 2025

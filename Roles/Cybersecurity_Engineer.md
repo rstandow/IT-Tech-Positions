@@ -58,3 +58,7 @@ The highest-paying roles often go to graduates with advanced degrees from univer
 * **Georgia Institute of Technology (Georgia Tech)** (MS in Cybersecurity)
 * **Johns Hopkins University (JHU)**
 * **New York University (NYU) Tandon School of Engineering**
+
+---
+
+**Last Updated:** December 2024 | **Next Review:** March 2025
