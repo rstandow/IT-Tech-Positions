@@ -48,9 +48,11 @@ This document provides references for salary data sources and instructions for k
 **Update Frequency:** Real-time based on user submissions
 **Cost:** Free
 
-**Particularly good for:** FAANG salaries, total compensation including stock
+## Automated Update Option (Experimental)
 
-## Update Schedule Recommendation
+**Note for contributors:** If you want to help automate salary data gathering, here's a starting point. This is how similar automation could work, but it requires ongoing maintenance.
+
+### Basic BLS Scraper (Python Example)
 
 ### Quarterly (Every 3 Months)
 - Spot-check 3-5 high-volatility roles (AI/ML Engineer, Cloud Architect, Prompt Engineer)

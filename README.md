@@ -18,6 +18,26 @@ This document serves as the central directory for exploring career paths in Info
 
 ---
 
+## Quick Links
+
+
+
+- [Getting Started in IT](Getting_Started.md) - Decision framework and first steps
+
+- [Career Trends](Career_Trends.md) - Modern IT employment patterns and strategies
+
+- [Glossary](GLOSSARY.md) - Industry terms, acronyms, and slang explained
+- [Industry Trends](Industry_Trends.md) - Major forces shaping the US IT job market
+
+- [Salary Data Sources](salary_sources.md) - How salary data is gathered and updated
+
+- [AI Impact Analysis](AI_Mastery_Analysis.md) - Skills at risk and protection strategies
+
+
+
+---
+
+
 ## Important Notes on Data and Roles
 
 * **General Guideline & Scope:** The roles listed here are intended as broad categories. Highly specialized areas, such as **Cloud Services (AWS, Azure)** and **Platform Development (Salesforce, SAP)**, contain numerous distinct job titles (e.g., Solutions Architect, Cloud Security Engineer, Platform Administrator) that all draw on the core KSA provided. These specialized positions often require **multiple, vendor-specific certifications** to qualify.
