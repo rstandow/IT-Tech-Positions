@@ -1,0 +1,111 @@
+name: Stale Data Checker
+
+on:
+  schedule:
+    # Run monthly on the 15th at 10am UTC
+    - cron: '0 10 15 * *'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  check-stale-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check for stale files
+        id: check
+        run: |
+          echo "Checking for files with 'Last Updated' older than 6 months..."
+          
+          # Get current date (seconds since epoch)
+          current_date=$(date +%s)
+          six_months_ago=$((current_date - 15552000)) # 180 days in seconds
+          
+          stale_files=""
+          
+          # Check all markdown files for "Last Updated: Month Year" pattern
+          for file in $(find . -name "*.md" -not -path "./.git/*" -not -path "./.github/*"); do
+            if grep -q "Last Updated:" "$file"; then
+              # Extract the date
+              last_updated=$(grep "Last Updated:" "$file" | head -1 | sed 's/.*Last Updated:\*\* //' | sed 's/ |.*//')
+              
+              # Convert to epoch (this is simplified - assumes "Month Year" format)
+              # For more robust parsing, would need a proper date parser
+              if [ -n "$last_updated" ]; then
+                file_date=$(date -d "$last_updated 01" +%s 2>/dev/null || echo "0")
+                
+                if [ "$file_date" != "0" ] && [ "$file_date" -lt "$six_months_ago" ]; then
+                  stale_files="${stale_files}\n- ${file} (Last Updated: ${last_updated})"
+                fi
+              fi
+            fi
+          done
+          
+          if [ -n "$stale_files" ]; then
+            echo "stale=true" >> $GITHUB_OUTPUT
+            # Save to file for use in next step
+            echo -e "$stale_files" > /tmp/stale_files.txt
+          else
+            echo "stale=false" >> $GITHUB_OUTPUT
+          fi
+        continue-on-error: true
+
+      - name: Create issue if stale data found
+        if: steps.check.outputs.stale == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            let staleFiles = '';
+            
+            try {
+              staleFiles = fs.readFileSync('/tmp/stale_files.txt', 'utf8');
+            } catch (error) {
+              console.error('Could not read stale files list:', error);
+              staleFiles = '(Error reading file list - check workflow logs)';
+            }
+            
+            const body = `## 📅 Stale Data Detected\n\n` +
+              `The following files have not been updated in 6+ months:\n\n` +
+              staleFiles + `\n\n` +
+              `### Action Required:\n` +
+              `1. Review these files for outdated information\n` +
+              `2. Update salary ranges, growth projections, or other data as needed\n` +
+              `3. Update "Last Updated" date after review\n` +
+              `4. See [UPDATE_CHECKLIST.md](UPDATE_CHECKLIST.md) for update process\n\n` +
+              `### Data Sources:\n` +
+              `- [BLS OOH](https://www.bls.gov/ooh/)\n` +
+              `- [Glassdoor](https://www.glassdoor.com/Salaries/)\n` +
+              `- [levels.fyi](https://www.levels.fyi/)\n` +
+              `- [salary_sources.md](salary_sources.md) for full list`;
+            
+            try {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: '📅 Stale data detected - files need review',
+                body: body,
+                labels: ['maintenance', 'data-update', 'stale-data']
+              });
+              console.log('Stale data issue created successfully');
+            } catch (error) {
+              console.error('Failed to create stale data issue:', error);
+              core.setFailed(`Issue creation failed: ${error.message}`);
+            }
+
+      - name: Notify on workflow failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '⚠️ Stale Data Checker Workflow Failed',
+              body: `The stale data checker workflow failed to run properly.\n\n` +
+                `Please [check the logs](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}) ` +
+                `and manually review files that haven't been updated recently.\n\n` +
+                `Look for files where "Last Updated" is older than 6 months.`,
+              labels: ['maintenance', 'workflow-failure']
+            });

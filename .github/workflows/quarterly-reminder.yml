@@ -1,0 +1,108 @@
+name: Quarterly Update Reminder
+
+on:
+  schedule:
+    # Run on the 1st of March, June, September, December at 10am UTC
+    - cron: '0 10 1 3,6,9,12 *'
+  workflow_dispatch: # Allow manual triggering for testing
+
+jobs:
+  create-reminder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Get current quarter
+        id: quarter
+        run: |
+          month=$(date +%m)
+          year=$(date +%Y)
+          if [ "$month" == "03" ]; then
+            echo "quarter=Q1" >> $GITHUB_OUTPUT
+            echo "year=$year" >> $GITHUB_OUTPUT
+          elif [ "$month" == "06" ]; then
+            echo "quarter=Q2" >> $GITHUB_OUTPUT
+            echo "year=$year" >> $GITHUB_OUTPUT
+          elif [ "$month" == "09" ]; then
+            echo "quarter=Q3" >> $GITHUB_OUTPUT
+            echo "year=$year" >> $GITHUB_OUTPUT
+            echo "major=true" >> $GITHUB_OUTPUT  # Q3 is major BLS update
+          else
+            echo "quarter=Q4" >> $GITHUB_OUTPUT
+            echo "year=$year" >> $GITHUB_OUTPUT
+          fi
+        continue-on-error: false
+
+      - name: Create quarterly update issue
+        if: success()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const quarter = '${{ steps.quarter.outputs.quarter }}';
+            const year = '${{ steps.quarter.outputs.year }}';
+            const isMajor = '${{ steps.quarter.outputs.major }}' === 'true';
+            
+            let title = `📅 ${quarter} ${year} Quarterly Update`;
+            if (isMajor) {
+              title = `🔥 ${quarter} ${year} MAJOR Quarterly Update (BLS Projections Release)`;
+            }
+            
+            let body = `## Time for ${quarter} ${year} Repository Update\n\n`;
+            body += `See [UPDATE_CHECKLIST.md](UPDATE_CHECKLIST.md) for detailed instructions.\n\n`;
+            
+            if (isMajor) {
+              body += `### ⚠️ MAJOR UPDATE QUARTER\n`;
+              body += `This is Q3 - BLS releases new 10-year projections in September!\n\n`;
+              body += `### Priority Tasks:\n`;
+              body += `- [ ] Update ALL salary ranges across 18 roles\n`;
+              body += `- [ ] Check BLS Occupational Outlook Handbook for new 2025-2035 projections\n`;
+              body += `- [ ] Update growth projections in README and all role files\n`;
+              body += `- [ ] Update AI Mastery Analysis with 6-month progress\n`;
+              body += `- [ ] Refresh data freshness table in README\n`;
+              body += `- [ ] Tag a new version release (e.g., v1.3-Q3-${year})\n\n`;
+            } else {
+              body += `### Standard Quarterly Tasks:\n`;
+              body += `- [ ] Spot-check high-volatility roles (AI/ML, Prompt Engineer, Data Engineer, SRE)\n`;
+              body += `- [ ] Check levels.fyi and Glassdoor for significant salary shifts (>10%)\n`;
+              body += `- [ ] Update any roles with major market changes\n`;
+              body += `- [ ] Update date references to current quarter\n`;
+              body += `- [ ] Review AI Mastery Analysis percentages\n\n`;
+            }
+            
+            body += `### Data Sources:\n`;
+            body += `- [BLS OOH](https://www.bls.gov/ooh/)\n`;
+            body += `- [Glassdoor](https://www.glassdoor.com/Salaries/)\n`;
+            body += `- [levels.fyi](https://www.levels.fyi/)\n`;
+            body += `- [Built In](https://builtin.com/salaries)\n\n`;
+            body += `### After Update:\n`;
+            body += `- [ ] Update "Last Updated" dates in all modified files\n`;
+            body += `- [ ] Update data freshness table in README\n`;
+            body += `- [ ] Commit with message: "Update ${quarter} ${year} salary data and projections"\n`;
+            
+            try {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: title,
+                body: body,
+                labels: ['maintenance', 'quarterly-update', isMajor ? 'high-priority' : 'routine']
+              });
+              console.log('Quarterly update reminder issue created successfully');
+            } catch (error) {
+              console.error('Failed to create issue:', error);
+              core.setFailed(`Issue creation failed: ${error.message}`);
+            }
+
+      - name: Notify on failure
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '⚠️ Quarterly Reminder Workflow Failed',
+              body: `The quarterly update reminder workflow failed to run.\n\nPlease check the [workflow logs](https://github.com/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}) and create the quarterly update issue manually.\n\nSee [UPDATE_CHECKLIST.md](UPDATE_CHECKLIST.md) for what needs to be done.`,
+              labels: ['maintenance', 'workflow-failure']
+            });
