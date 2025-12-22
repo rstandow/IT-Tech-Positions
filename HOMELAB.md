@@ -1,5 +1,4 @@
 # IT Homelab Guide: Learn by Doing
-# IT Homelab Guide: Learn by Doing
 
 ## Table of Contents
 
@@ -56,7 +55,6 @@
 
 ---
 
----
 
 ⬆️ **[Back to Table of Contents](#table-of-contents)**
 
@@ -65,6 +63,10 @@
 ## Budget Tier 1: Under $500 (The Starter Lab)
 
 **Target roles:** IT Support, Junior System Admin, Entry-Level DevOps
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### Hardware Option A: Used Business PC
 
@@ -78,6 +80,10 @@
 
 **Total: ~$300-$400**
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ### Hardware Option B: Raspberry Pi Cluster
 
 **What to buy:**
@@ -88,6 +94,10 @@
 - **Gigabit switch** ($25)
 
 **Total: ~$285**
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### Software Stack (All Free)
 
@@ -106,6 +116,10 @@
 - **PostgreSQL** or **MySQL** (databases)
 - **Gitea** (self-hosted Git server)
 - **Nextcloud** (self-hosted cloud storage)
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### Skills to Practice
 
@@ -138,7 +152,6 @@
 
 ---
 
----
 
 ⬆️ **[Back to Table of Contents](#table-of-contents)**
 
@@ -147,6 +160,10 @@
 ## Budget Tier 2: $1,000-$1,500 (The Serious Lab)
 
 **Target roles:** System Admin, DevOps Engineer, SRE, Cloud Engineer
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### Hardware Setup
 
@@ -166,6 +183,10 @@
 - **NAS for storage** - Synology DS220+ or build TrueNAS ($400-$600)
 
 **Total: ~$1,000-$1,500**
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### Software Stack (Production-Grade)
 
@@ -200,6 +221,10 @@
 - **Wazuh** (security monitoring)
 - **Vault** (secrets management)
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ### Skills to Practice (Advanced)
 
 **Months 1-3: Infrastructure Automation**
@@ -230,6 +255,10 @@
 - [ ] Practice security incident response
 - [ ] Load test your applications (K6, Locust)
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ### Portfolio Projects (Job-Ready)
 
 **DevOps Engineer:**
@@ -249,7 +278,6 @@
 
 ---
 
----
 
 ⬆️ **[Back to Table of Contents](#table-of-contents)**
 
@@ -258,6 +286,8 @@
 ## Essential Free & Open Source Tools for Your IT Toolkit
 
 Building a homelab and IT career doesn't require expensive software. Here are the best free and open-source tools organized by category:
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
 
@@ -288,6 +318,8 @@ Building a homelab and IT career doesn't require expensive software. Here are th
 - **Best for:** Quick edits, log file viewing, temp scratch pad
 - **Why:** Lightweight, syntax highlighting, opens instantly
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ### Version Control & Collaboration
@@ -309,6 +341,8 @@ Building a homelab and IT career doesn't require expensive software. Here are th
 - **Best for:** Private Git server on your homelab
 - Lightweight alternative to GitLab
 - Docker: `gitea/gitea:latest`
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
 
@@ -339,6 +373,8 @@ Building a homelab and IT career doesn't require expensive software. Here are th
 - **Best for:** 3D modeling, animation (if you need it)
 - Professional-grade, completely free
 - Download: https://www.blender.org/
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
 
@@ -373,6 +409,8 @@ graph LR
 - Platform: Text-based
 - **Best for:** UML diagrams, sequence diagrams
 - Integrates with: VS Code, IntelliJ, documentation sites
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
 
@@ -409,6 +447,8 @@ graph LR
 - Easier than nmap for beginners
 - Download: https://angryip.org/
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ### Virtualization & Containers
@@ -430,6 +470,8 @@ graph LR
 - **Best for:** Web UI for Docker management
 - Free community edition
 - Deploy: `docker run -d -p 9000:9000 portainer/portainer-ce`
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
 
@@ -459,10 +501,11 @@ graph LR
 - Beautiful UI, easy setup
 - Docker: `louislam/uptime-kuma:latest`
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ### Database Tools
-
 **DBeaver**
 - Platform: Windows, Mac, Linux
 - **Best for:** Universal database client (MySQL, PostgreSQL, SQLite, etc.)
@@ -484,10 +527,11 @@ graph LR
 - Official MySQL tool
 - Download: https://www.mysql.com/products/workbench/
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ### Productivity & Note-Taking
-
 **Obsidian** ⭐
 - Platform: Windows, Mac, Linux
 - **Best for:** Personal knowledge base, notes
@@ -516,10 +560,11 @@ graph LR
 - Similar to: Obsidian but more structured
 - Download: https://logseq.com/
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ### Screen Recording & Screenshots
-
 **OBS Studio** ⭐
 - Platform: Windows, Mac, Linux
 - **Best for:** Screen recording, streaming
@@ -547,10 +592,11 @@ graph LR
 - Lightweight, simple
 - Download: https://getgreenshot.org/
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ### Password & Secrets Management
-
 **Bitwarden** ⭐
 - Platform: All (web, desktop, mobile, browser extension)
 - **Best for:** Password management
@@ -570,10 +616,11 @@ graph LR
 - Lighter than official Bitwarden server
 - Docker: `vaultwarden/server:latest`
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ### File Transfer & Sync
-
 **FileZilla**
 - Platform: Windows, Mac, Linux
 - **Best for:** FTP/SFTP client
@@ -593,10 +640,11 @@ graph LR
 - Use: Sync homelab docs across devices
 - Download: https://syncthing.net/
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ### API Testing & Development
-
 **Postman**
 - Platform: Windows, Mac, Linux
 - **Best for:** API testing and development
@@ -616,10 +664,11 @@ graph LR
 - Already installed on most systems
 - Example: `curl -X GET https://api.github.com/users/username`
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ### Communication & Collaboration
-
 **Slack** (Free tier)
 - Platform: All
 - **Best for:** Team communication
@@ -636,10 +685,11 @@ graph LR
 - Open source, privacy-focused
 - Docker: `mattermost/mattermost-team-edition`
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ### Learning & Reference
-
 **Stack Overflow**
 - Obviously free, essential for troubleshooting
 
@@ -655,10 +705,11 @@ graph LR
 - Free full-stack web development course
 - Use: https://www.theodinproject.com/
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ### Cost Savings Summary
-
 Using these free tools instead of paid equivalents saves:
 
 | Paid Tool | Annual Cost | Free Alternative | Savings |
@@ -672,10 +723,11 @@ Using these free tools instead of paid equivalents saves:
 
 **Add professional Windows license ($200) replaced by Linux = $1,376/year saved**
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ### Recommended Starter Toolkit
-
 **Absolute minimum for IT homelab:**
 1. **VS Code** - Code editor
 2. **Git** - Version control
@@ -692,11 +744,16 @@ Using these free tools instead of paid equivalents saves:
 
 ---
 
+
 ⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
 
 ## Homelab Learning Path by Career Goal
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### Path 1: IT Support → System Administrator
 
@@ -716,10 +773,11 @@ Using these free tools instead of paid equivalents saves:
 
 **Timeline:** 6-12 months
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ### Path 2: Developer → DevOps Engineer
-
 **Hardware:** Budget Tier 2 ($1,000-$1,500)
 
 **Focus:**
@@ -736,12 +794,13 @@ Using these free tools instead of paid equivalents saves:
 
 **Timeline:** 6-9 months (faster if already coding)
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ### Path 3: System Admin → Site Reliability Engineer
 
 **Hardware:** Budget Tier 2 ($1,000-$1,500)
-
 **Focus:**
 - SLO/SLI/Error budgets
 - Production incident response
@@ -756,10 +815,11 @@ Using these free tools instead of paid equivalents saves:
 
 **Timeline:** 9-12 months
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ### Path 4: Cybersecurity Focus
-
 **Hardware:** Budget Tier 1 or 2
 
 **Focus:**
@@ -778,14 +838,12 @@ Using these free tools instead of paid equivalents saves:
 
 ---
 
----
 
 ⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
 
 ## Progression Timeline
-
 **Months 1-3:** Basics (SSH, Linux, Docker, basic networking)  
 **Months 4-6:** Services (web servers, databases, automation scripts)  
 **Months 7-9:** Advanced (Kubernetes, CI/CD, monitoring)  
@@ -795,7 +853,6 @@ Using these free tools instead of paid equivalents saves:
 
 ---
 
----
 
 ⬆️ **[Back to Table of Contents](#table-of-contents)**
 
@@ -804,6 +861,10 @@ Using these free tools instead of paid equivalents saves:
 ## Documentation: The Skill That Separates Professionals from Hobbyists
 
 **Critical Truth:** If you didn't document it, you didn't learn it. Documentation proves you understand what you built.
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### What to Document
 
@@ -827,14 +888,19 @@ Using these free tools instead of paid equivalents saves:
 - Incident response procedures
 - Rollback procedures
 
-### How to Document (The IT Way)
+⬆️ **[Back to Table of Contents](#table-of-contents)**
 
+---
+
+### How to Document (The IT Way)
 **Option 1: Docs-as-Code (Professional Standard)**
 
 Use **Markdown + Git** - same workflow as code:
 
 ```markdown
 # Homelab Infrastructure
+
+
 
 ⬆️ **[Back to Table of Contents](#table-of-contents)**
 
@@ -846,6 +912,10 @@ Use **Markdown + Git** - same workflow as code:
 
 Home Assistant is an excellent homelab project that teaches multiple IT skills:
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ### Skills You'll Learn
 - **YAML Configuration** - Used in Kubernetes, Docker Compose, Ansible
 - **API Integration** - REST APIs, webhooks, MQTT, OAuth
@@ -854,10 +924,18 @@ Home Assistant is an excellent homelab project that teaches multiple IT skills:
 - **Database** - Time-series data, SQLite/PostgreSQL optimization
 - **Python** - Home Assistant runs on Python, custom components
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ### Setup Options
 
 **Budget ($35-$50):** Raspberry Pi 4 running Home Assistant OS  
 **Integrated ($0):** Docker container on existing Proxmox/server
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### What to Monitor (No Smart Devices Needed!)
 - System metrics (CPU, RAM, disk) via SSH
@@ -865,6 +943,10 @@ Home Assistant is an excellent homelab project that teaches multiple IT skills:
 - Docker containers and VM status
 - API integration (weather, calendar, GitHub)
 - Server alerts sent to phone
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### Sample Homelab Automations
 
@@ -896,6 +978,10 @@ automation:
       service: shell_command.run_backup
 ```
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ### Portfolio Value
 
 **Interview talking point:**
@@ -903,9 +989,15 @@ automation:
 
 **Demonstrates:** Full-stack skills, DevOps, API integration, automation, real-world application
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ### Video Tutorials
 - [Everything Smart Home - HA Beginner's Guide](https://www.youtube.com/c/EverythingSmartHome)
 - [Smart Home Solver - Installation](https://www.youtube.com/@SmartHomeSolver)
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
 
@@ -1267,6 +1359,8 @@ class MyCustomSensor(Entity):
 - API response validation
 - Component lifecycle (init, update, properties)
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ### 12-Week Home Assistant Learning Path
@@ -1309,6 +1403,8 @@ class MyCustomSensor(Entity):
 
 **Portfolio result:** Complete Home Assistant infrastructure with OAuth integrations, webhook automations, database queries, and custom components - proving full-stack + DevOps capability.
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ### Resources for Learning
@@ -1325,6 +1421,7 @@ class MyCustomSensor(Entity):
 
 ---
 
+
 ⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
@@ -1332,6 +1429,10 @@ class MyCustomSensor(Entity):
 ## Home Automation & Dashboard Alternatives
 
 While Home Assistant is popular, there are many alternatives depending on your goals. Here's a comprehensive breakdown:
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### Home Automation Platforms (HA Alternatives)
 
@@ -1429,6 +1530,8 @@ services:
 ```
 
 **Skills learned:** Flow-based programming, visual logic design, MQTT, API integration
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
 
@@ -1662,6 +1765,8 @@ sections:
 
 **When to choose:** You want to access all services from one window without multiple tabs
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ### Comparison Table: Dashboards
@@ -1673,6 +1778,10 @@ sections:
 | **Heimdall** | Dynamic | Medium | Live stats on tiles | Easy |
 | **Dashy** | Dynamic | Medium-High | Widgets, customization | Medium |
 | **Organizr** | Dynamic | Medium | Iframe embedding, tab-based | Hard |
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### Recommended Combo for Learning
 
@@ -1699,6 +1808,10 @@ Node-RED (automation)
 Prometheus + Grafana (monitoring)
 ```
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ### Quick Setup Guide for Dashboard
 
 **Step 1: Choose your dashboard (recommend: Homarr or Homer)**
@@ -1721,6 +1834,8 @@ docker-compose up -d
 
 **Portfolio value:** 
 > "Built centralized dashboard for homelab infrastructure providing single-pane-of-glass visibility across 15+ services including Kubernetes, monitoring stack, and automation platforms"
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
 
@@ -1755,6 +1870,7 @@ docker-compose up -d
 
 ---
 
+
 ⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
@@ -1762,6 +1878,10 @@ docker-compose up -d
 ## Video Tutorials (Step-by-Step Setup Guides)
 
 The best way to learn is watching someone do it, then doing it yourself. Here are the best YouTube channels and specific tutorials:
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### Proxmox Setup
 
@@ -1773,6 +1893,10 @@ The best way to learn is watching someone do it, then doing it yourself. Here ar
 - [Proxmox Full Course](https://www.youtube.com/watch?v=5j0Zb6x_hOk) - 14-part series covering everything
 - [Proxmox Clustering](https://www.youtube.com/watch?v=Nb0JAf28y4I) - For advanced setup
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ### Docker & Kubernetes
 
 **TechnoTim**
@@ -1783,6 +1907,10 @@ The best way to learn is watching someone do it, then doing it yourself. Here ar
 - [Docker Crash Course](https://www.youtube.com/watch?v=eGz9DS-aIeY) - Fun, beginner-friendly
 - [You need to learn Kubernetes RIGHT NOW!!](https://www.youtube.com/watch?v=7bA0gTroJjw)
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ### pfSense / Firewall
 
 **Lawrence Systems**
@@ -1792,11 +1920,19 @@ The best way to learn is watching someone do it, then doing it yourself. Here ar
 **NetworkChuck**
 - [Build a Firewall with pfSense](https://www.youtube.com/watch?v=HO2ZIvEldSo)
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ### Monitoring (Prometheus + Grafana)
 
 **TechnoTim**
 - [Ultimate Grafana + Prometheus Setup](https://www.youtube.com/watch?v=h4Sl21AKiDg)
 - [Monitor your Homelab with Netdata](https://www.youtube.com/watch?v=AJDv94KNmmo) - Easier alternative
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### Traefik Reverse Proxy
 
@@ -1804,10 +1940,18 @@ The best way to learn is watching someone do it, then doing it yourself. Here ar
 - [Traefik 2 Setup with Docker](https://www.youtube.com/watch?v=wLrmmh1eI94)
 - [Traefik + LetsEncrypt + Docker](https://www.youtube.com/watch?v=liV3c9m_OX8) - Auto SSL
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ### CrowdSec Security
 
 **TechnoTim**
 - [Protect your Server with CrowdSec](https://www.youtube.com/watch?v=9kGW-LBSDac) - Community threat intelligence
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### Automation (Terraform + Ansible)
 
@@ -1817,6 +1961,10 @@ The best way to learn is watching someone do it, then doing it yourself. Here ar
 
 **Jeff Geerling**
 - [Ansible for Beginners](https://www.youtube.com/watch?v=goclfp6a2IQ) - Best Ansible teacher
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### Recommended Channels to Subscribe
 
@@ -1828,6 +1976,10 @@ The best way to learn is watching someone do it, then doing it yourself. Here ar
 | **[Lawrence Systems](https://www.youtube.com/@LAWRENCESYSTEMS)** | pfSense, networking | Business-focused |
 | **[Jeff Geerling](https://www.youtube.com/@JeffGeerling)** | Ansible, automation | Teaching-oriented |
 | **Christian Lempa** | Cloud, DevOps | [YouTube](https://www.youtube.com/@christianlempa) - Concise, practical |
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### Learning Path Videos
 
@@ -1850,6 +2002,7 @@ The best way to learn is watching someone do it, then doing it yourself. Here ar
 
 ---
 
+
 ⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
@@ -1865,7 +2018,7 @@ The best way to learn is watching someone do it, then doing it yourself. Here ar
 
 ---
 
----
+⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
 
@@ -1888,7 +2041,7 @@ A: Build projects with end goals. "Set up monitoring" is vague. "Build dashboard
 
 ---
 
----
+⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
 
@@ -1912,7 +2065,7 @@ A: Build projects with end goals. "Set up monitoring" is vague. "Build dashboard
 
 ---
 
----
+⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
 
@@ -1930,6 +2083,6 @@ Start small, break things, fix them, and document your learning. Your homelab is
 
 ---
 
----
-
 **Last Updated:** December 2024 | **Next Review:** June 2025
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
