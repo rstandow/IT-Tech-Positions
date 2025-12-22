@@ -540,32 +540,59 @@ Hiring managers click that link and see professional documentation = instant cre
 | **Obsidian + Git** | Personal notes + version control | Your computer + GitHub | Low |
 | **Wiki.js** | Feature-rich team wiki | Your server | Medium |
 
-### Pro Tips
+### Pro Tips & Workflow Tools
 
-**1. Screenshot Everything**
-- Before (broken state)
-- During (error messages, troubleshooting steps)
-- After (working dashboard, metrics)
+**1. Use a Scratchpad/Text Editor for Temporary Info**
 
-**2. Version Control Your Configs**
-Keep ALL config files in Git:
-```bash
-/etc/nginx/nginx.conf
-/etc/docker/daemon.json
-/home/user/docker-compose.yml
-```
+Essential for storing commands, config snippets, IP addresses temporarily while working.
 
-**3. Write Postmortems**
-When something breaks badly:
-- Timeline of events
-- Root cause
-- What you did to fix it
-- How to prevent it next time
+**Best options:**
 
-This is what SREs do at Google. Practice it in your homelab.
+- **Notepad++ (Windows)** - Perfect for temporary copy/paste storage, multiple tabs, syntax highlighting, auto-save
+  - **Pro tip:** Keep a tab open called "homelab_temp.txt" for quick notes
 
-**4. Document Your Mistakes**
-"I tried X, it failed because Y, learned Z" = valuable content. Employers want to see learning and problem-solving.
+- **VS Code (All platforms)** - Use "Untitled" files for temp storage, split screen: docs on left, commands on right
+  - **Pro tip:** Create a "scratch" folder for temp files you might need later
+
+- **Sublime Text** - Lightning fast, multiple cursors (edit multiple lines at once)
+  
+- **vim/nano (Linux)** - Always available on servers, quick edits via SSH
+
+**2. Clipboard Manager (Game Changer)**
+
+Copy multiple items and access history - crucial when running commands.
+
+- **Mac:** Maccy, Paste, Alfred  
+- **Windows:** Ditto, ClipClip  
+- **Linux:** CopyQ, Clipman
+
+**Why it matters:** Copy 5 commands from a tutorial, paste them one by one without switching windows
+
+**3. Screenshot Everything**
+
+- Before (broken state), During (error messages), After (working result)
+- **Tools:** Mac (Cmd+Shift+4), Windows (Greenshot), Linux (Flameshot)
+- **Pro tip:** Name screenshots: `2024-12-22_proxmox_vm_creation.png`
+
+**4. Version Control Your Configs**
+
+Keep ALL config files in Git, organize by service, commit regularly.
+
+**5. Keep a Homelab Journal**
+
+Daily log file tracking what you did, problems encountered, lessons learned, and TODOs.
+
+**6. Use tmux/screen for Long-Running Commands**
+
+Prevents losing work when SSH connection drops.
+
+**7. Document Your Mistakes**
+
+"I tried X, it failed because Y, learned Z" = valuable content.
+
+**8. The "Future You" Rule**
+
+Name things clearly: `backup_proxmox_to_nas_daily.sh` not `script.sh`
 
 ### Quick Start: Your First Doc
 
@@ -1611,4 +1638,440 @@ docker-compose up -d
 **Pro tip:** You can run multiple! Homer for quick access + Home Assistant for automation + Grafana for metrics = complete homelab management.
 
 ---
+
+
+## Essential Free & Open Source Tools for Your IT Toolkit
+
+Building a homelab and IT career doesn't require expensive software. Here are the best free and open-source tools organized by category:
+
+---
+
+### Development & Code Editors
+
+**Visual Studio Code (VS Code)** ⭐
+- Platform: Windows, Mac, Linux
+- **Best for:** Primary code editor for all languages
+- Features: IntelliSense, debugging, Git integration, extensions marketplace
+- Extensions to install: Docker, Kubernetes, YAML, Markdown, GitLens
+- **Why:** Industry standard, works with everything
+- Download: https://code.visualstudio.com/
+
+**Vim / Neovim**
+- Platform: Linux, Mac, Windows
+- **Best for:** Server editing, extreme productivity (steep learning curve)
+- **Why:** Always available on servers, lightning fast
+- Learn: `vimtutor` command or https://vim-adventures.com/
+
+**Sublime Text**
+- Platform: Windows, Mac, Linux
+- **Best for:** Fast text editing, multiple cursors
+- Free (nagware) or $99 license
+- **Why:** Faster than VS Code for large files
+
+**Notepad++**
+- Platform: Windows only
+- **Best for:** Quick edits, log file viewing, temp scratch pad
+- **Why:** Lightweight, syntax highlighting, opens instantly
+
+---
+
+### Version Control & Collaboration
+
+**Git**
+- Platform: All
+- **Essential:** Every IT professional uses Git
+- GUI options: GitKraken (free for open source), GitHub Desktop
+- Download: https://git-scm.com/
+
+**GitHub Desktop**
+- Platform: Windows, Mac
+- **Best for:** Visual Git workflow (if command line intimidates you)
+- Free, integrates with GitHub
+- Download: https://desktop.github.com/
+
+**Gitea / Forgejo**
+- Platform: Self-hosted
+- **Best for:** Private Git server on your homelab
+- Lightweight alternative to GitLab
+- Docker: `gitea/gitea:latest`
+
+---
+
+### Graphics & Design
+
+**GIMP (GNU Image Manipulation Program)**
+- Platform: Windows, Mac, Linux
+- **Best for:** Photo editing, Photoshop alternative
+- Free alternative to: Adobe Photoshop ($60/month)
+- Use for: Screenshots, diagrams, documentation images
+- Download: https://www.gimp.org/
+
+**Inkscape**
+- Platform: Windows, Mac, Linux
+- **Best for:** Vector graphics, logos, icons
+- Free alternative to: Adobe Illustrator
+- Use for: Network diagrams, flowcharts, SVG editing
+- Download: https://inkscape.org/
+
+**Krita**
+- Platform: Windows, Mac, Linux
+- **Best for:** Digital painting, illustration
+- More intuitive than GIMP for drawing
+- Download: https://krita.org/
+
+**Blender**
+- Platform: Windows, Mac, Linux
+- **Best for:** 3D modeling, animation (if you need it)
+- Professional-grade, completely free
+- Download: https://www.blender.org/
+
+---
+
+### Diagramming & Documentation
+
+**draw.io (diagrams.net)** ⭐
+- Platform: Web, Windows, Mac, Linux
+- **Best for:** Network diagrams, flowcharts, architecture diagrams
+- Free alternative to: Microsoft Visio ($15/month)
+- **Why:** Industry-standard formats (XML), integrates with GitHub
+- Use: https://app.diagrams.net/ or desktop app
+
+**Excalidraw**
+- Platform: Web
+- **Best for:** Hand-drawn style diagrams, quick sketches
+- Perfect for: Whiteboard-style brainstorming
+- Use: https://excalidraw.com/
+
+**Mermaid**
+- Platform: Text-based (renders in GitHub, GitLab, VS Code)
+- **Best for:** Diagrams as code (version controllable!)
+- Example:
+```mermaid
+graph LR
+    A[Laptop] --> B[Router]
+    B --> C[Proxmox Server]
+    C --> D[Docker Containers]
+```
+- Learn: https://mermaid.js.org/
+
+**PlantUML**
+- Platform: Text-based
+- **Best for:** UML diagrams, sequence diagrams
+- Integrates with: VS Code, IntelliJ, documentation sites
+
+---
+
+### Networking & System Tools
+
+**Wireshark** ⭐
+- Platform: Windows, Mac, Linux
+- **Best for:** Network packet analysis, troubleshooting
+- **Essential skill:** Reading network traffic
+- Learn: Capture packets, filter by protocol, analyze issues
+- Download: https://www.wireshark.org/
+
+**PuTTY**
+- Platform: Windows
+- **Best for:** SSH client for Windows
+- Alternative: Built-in Windows Terminal is now excellent
+- Download: https://www.putty.org/
+
+**Termius**
+- Platform: Windows, Mac, Linux, Mobile
+- **Best for:** Cross-platform SSH client, syncs connections
+- Free tier available
+- Download: https://termius.com/
+
+**Nmap**
+- Platform: All
+- **Best for:** Network scanning, port discovery
+- Learn: `nmap -sV 192.168.1.0/24` (scan your network)
+- Download: https://nmap.org/
+
+**Angry IP Scanner**
+- Platform: Windows, Mac, Linux
+- **Best for:** Simple GUI for network scanning
+- Easier than nmap for beginners
+- Download: https://angryip.org/
+
+---
+
+### Virtualization & Containers
+
+**VirtualBox**
+- Platform: Windows, Mac, Linux
+- **Best for:** Desktop virtualization (free alternative to VMware)
+- Use for: Testing OSes, learning Linux
+- Download: https://www.virtualbox.org/
+
+**Docker Desktop**
+- Platform: Windows, Mac
+- **Best for:** Running Docker containers locally
+- Free for personal use
+- Download: https://www.docker.com/products/docker-desktop/
+
+**Portainer**
+- Platform: Docker container
+- **Best for:** Web UI for Docker management
+- Free community edition
+- Deploy: `docker run -d -p 9000:9000 portainer/portainer-ce`
+
+---
+
+### Monitoring & Logging
+
+**Grafana** ⭐
+- Platform: Self-hosted or cloud (free tier)
+- **Best for:** Metric visualization, dashboards
+- Use for: Homelab monitoring, beautiful graphs
+- Docker: `grafana/grafana:latest`
+
+**Prometheus**
+- Platform: Self-hosted
+- **Best for:** Metrics collection and alerting
+- Pair with: Grafana for visualization
+- Docker: `prom/prometheus:latest`
+
+**Netdata**
+- Platform: Linux
+- **Best for:** Real-time system monitoring (CPU, RAM, network)
+- Easiest monitoring setup (one-line install)
+- Install: `curl -Ss https://my-netdata.io/kickstart.sh | bash`
+
+**Uptime Kuma**
+- Platform: Self-hosted
+- **Best for:** Service uptime monitoring, status page
+- Beautiful UI, easy setup
+- Docker: `louislam/uptime-kuma:latest`
+
+---
+
+### Database Tools
+
+**DBeaver**
+- Platform: Windows, Mac, Linux
+- **Best for:** Universal database client (MySQL, PostgreSQL, SQLite, etc.)
+- Free, open source
+- Better than: Paying for commercial
+
+ DB tools
+- Download: https://dbeaver.io/
+
+**pgAdmin**
+- Platform: Windows, Mac, Linux
+- **Best for:** PostgreSQL administration
+- Official PostgreSQL tool
+- Download: https://www.pgadmin.org/
+
+**MySQL Workbench**
+- Platform: Windows, Mac, Linux
+- **Best for:** MySQL/MariaDB administration
+- Official MySQL tool
+- Download: https://www.mysql.com/products/workbench/
+
+---
+
+### Productivity & Note-Taking
+
+**Obsidian** ⭐
+- Platform: Windows, Mac, Linux
+- **Best for:** Personal knowledge base, notes
+- Markdown-based, can sync with Git
+- Perfect for: Homelab documentation, learning notes
+- Download: https://obsidian.md/
+
+**Notion**
+- Platform: Web, Windows, Mac, Mobile
+- **Best for:** Project management, wikis, databases
+- Free for personal use
+- Alternative to: Confluence, Evernote
+- Use: https://notion.so/
+
+**Joplin**
+- Platform: Windows, Mac, Linux, Mobile
+- **Best for:** Note-taking with sync
+- Open source, free
+- Alternative to: Evernote, OneNote
+- Download: https://joplinapp.org/
+
+**Logseq**
+- Platform: Windows, Mac, Linux
+- **Best for:** Knowledge graph, connected notes
+- Open source, privacy-focused
+- Similar to: Obsidian but more structured
+- Download: https://logseq.com/
+
+---
+
+### Screen Recording & Screenshots
+
+**OBS Studio** ⭐
+- Platform: Windows, Mac, Linux
+- **Best for:** Screen recording, streaming
+- Used by: Professional streamers and educators
+- Free alternative to: Camtasia ($300)
+- Use for: Recording homelab tutorials for portfolio
+- Download: https://obsproject.com/
+
+**ShareX**
+- Platform: Windows
+- **Best for:** Screenshots, screen recording, GIF creation
+- Auto-upload to multiple services
+- **Highly recommended for Windows**
+- Download: https://getsharex.com/
+
+**Flameshot**
+- Platform: Linux
+- **Best for:** Powerful screenshot tool with annotation
+- Better than default Linux screenshot tools
+- Download: https://flameshot.org/
+
+**Greenshot**
+- Platform: Windows, Mac
+- **Best for:** Quick screenshots with annotation
+- Lightweight, simple
+- Download: https://getgreenshot.org/
+
+---
+
+### Password & Secrets Management
+
+**Bitwarden** ⭐
+- Platform: All (web, desktop, mobile, browser extension)
+- **Best for:** Password management
+- Free tier generous, can self-host
+- **Essential for homelab:** API keys, passwords, tokens
+- Download: https://bitwarden.com/
+
+**KeePassXC**
+- Platform: Windows, Mac, Linux
+- **Best for:** Offline password manager
+- File-based (store in Nextcloud/Dropbox)
+- Download: https://keepassxc.org/
+
+**Vaultwarden**
+- Platform: Self-hosted (Bitwarden-compatible)
+- **Best for:** Self-hosting password manager
+- Lighter than official Bitwarden server
+- Docker: `vaultwarden/server:latest`
+
+---
+
+### File Transfer & Sync
+
+**FileZilla**
+- Platform: Windows, Mac, Linux
+- **Best for:** FTP/SFTP client
+- Transfer files to/from servers
+- Download: https://filezilla-project.org/
+
+**WinSCP**
+- Platform: Windows
+- **Best for:** SFTP, SCP file transfer
+- Alternative to: FileZilla (Windows-specific)
+- Download: https://winscp.net/
+
+**Syncthing**
+- Platform: All
+- **Best for:** P2P file synchronization
+- Like: Dropbox but self-hosted and free
+- Use: Sync homelab docs across devices
+- Download: https://syncthing.net/
+
+---
+
+### API Testing & Development
+
+**Postman**
+- Platform: Windows, Mac, Linux
+- **Best for:** API testing and development
+- Free tier very generous
+- Essential for: Testing REST APIs, webhooks
+- Download: https://www.postman.com/
+
+**Insomnia**
+- Platform: Windows, Mac, Linux
+- **Best for:** API testing (simpler than Postman)
+- Open source
+- Download: https://insomnia.rest/
+
+**cURL**
+- Platform: All (command line)
+- **Best for:** Quick API testing, learning HTTP
+- Already installed on most systems
+- Example: `curl -X GET https://api.github.com/users/username`
+
+---
+
+### Communication & Collaboration
+
+**Slack** (Free tier)
+- Platform: All
+- **Best for:** Team communication
+- Use for: Homelab community, tech Slack groups
+
+**Discord**
+- Platform: All
+- **Best for:** Community chat, voice
+- Join: IT homelab Discord servers, tech communities
+
+**Mattermost**
+- Platform: Self-hosted
+- **Best for:** Self-hosted Slack alternative
+- Open source, privacy-focused
+- Docker: `mattermost/mattermost-team-edition`
+
+---
+
+### Learning & Reference
+
+**Stack Overflow**
+- Obviously free, essential for troubleshooting
+
+**DevDocs.io**
+- Offline documentation for 100+ languages/frameworks
+- Use: https://devdocs.io/
+
+**Teach Yourself CS**
+- Free computer science curriculum
+- Use: https://teachyourselfcs.com/
+
+**The Odin Project**
+- Free full-stack web development course
+- Use: https://www.theodinproject.com/
+
+---
+
+### Cost Savings Summary
+
+Using these free tools instead of paid equivalents saves:
+
+| Paid Tool | Annual Cost | Free Alternative | Savings |
+|:---|:---|:---|:---|
+| Microsoft Visio | $360/year | draw.io | $360 |
+| Adobe Photoshop | $240/year | GIMP | $240 |
+| Adobe Illustrator | $240/year | Inkscape | $240 |
+| Camtasia | $300 (one-time) | OBS Studio | $300 |
+| 1Password | $36/year | Bitwarden | $36 |
+| **Total savings:** | **$1,176+/year** | | |
+
+**Add professional Windows license ($200) replaced by Linux = $1,376/year saved**
+
+---
+
+### Recommended Starter Toolkit
+
+**Absolute minimum for IT homelab:**
+1. **VS Code** - Code editor
+2. **Git** - Version control
+3. **draw.io** - Diagrams
+4. **Bitwarden** - Passwords
+5. **Wireshark** - Network analysis
+6. **Obsidian** - Documentation
+
+**Everything else:** Install as needed, but these 6 cover 80% of homelab work.
+
+---
+
+**Last Updated:** December 2024
 
