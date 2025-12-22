@@ -19,7 +19,6 @@
 
 ---
 
-
 So you're considering a career in Information Technology. This guide helps you determine if IT is right for you and provides concrete first steps.
 
 ## Should I Enter IT? Key Questions
@@ -45,6 +44,10 @@ So you're considering a career in Information Technology. This guide helps you d
 - **Year 1-2:** First IT job (help desk, junior developer, analyst)
 - **Year 3-5:** Skill specialization, job changes for salary growth
 - **Year 5+:** Senior/specialist roles with $100k+ potential
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### Question 3: Which path fits my personality?
 
@@ -91,6 +94,10 @@ You don't need a 4-year CS degree to start in IT. Here's what you need for commo
 2. Practice building/troubleshooting PCs
 3. Set up home lab (old laptop with VirtualBox)
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ### Junior Developer / Platform Developer
 **Time to job-ready:** 6-12 months  
 **Starting salary:** $60k-$85k
@@ -125,7 +132,6 @@ You don't need a 4-year CS degree to start in IT. Here's what you need for commo
 4. **Salesforce Trailheads** (free interactive learning for Salesforce ecosystem - highly valuable for career growth)
 5. Analyze a public dataset (Kaggle) and present findings
 
-
 ---
 
 ## How to Choose Your First Role
@@ -139,6 +145,10 @@ You don't need a 4-year CS degree to start in IT. Here's what you need for commo
 | Job security, steady demand | Cybersecurity Analyst | $55k-$75k | 8-12 months + Security+ |
 | Data-driven work, business impact | Data Analyst → Data Scientist | $55k-$70k | 4-8 months |
 | Cutting-edge tech, high growth | AI/ML path (requires degree or bootcamp) | $85k-$110k (post-education) | 12-24 months |
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### The "Safe Bet" Strategy
 Start with **IT Support** → **accumulate certifications** → **specialize** in:
@@ -175,6 +185,10 @@ Self-study **Software Development** (6-12 months) or attend **coding bootcamp** 
 - [ ] Earn first certification (CompTIA A+, Security+, or equivalent)
 - [ ] Update LinkedIn with skills and portfolio link
 - [ ] Start applying to entry-level roles (even if you feel "not ready")
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### Month 6+: Job Search
 - [ ] Apply to 10-15 jobs per week
@@ -213,6 +227,10 @@ Self-study **Software Development** (6-12 months) or attend **coding bootcamp** 
 3. **Certifications don't guarantee jobs.** They get you interviews. Projects and communication skills get you hired.
 4. **Degree not required, but helps.** You can succeed without a CS degree, but you'll face more initial rejections.
 5. **Burnout is common.** See [Career_Trends.md](Career_Trends.md) - strategic job changes every 2-4 years are normal and healthy.
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### Biggest Mistakes Newcomers Make
 ❌ **Trying to learn everything at once** - pick ONE path and go deep  
@@ -302,6 +320,8 @@ graph TD
 - **Salary progression:** Most paths can reach $150k+ in 7-10 years with strategic job changes
 
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ## Interview Preparation Guide
@@ -389,6 +409,10 @@ Landing your first (or next) IT role requires more than technical skills - you n
 - Include README with setup instructions
 - Visualizations matter - make it look good
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ### Behavioral Interview Mastery (STAR Method)
 
 Most IT interviews include behavioral questions. Use STAR format:
@@ -411,6 +435,10 @@ Most IT interviews include behavioral questions. Use STAR format:
 - Tell me about a time you had to learn something new quickly
 - Describe a project you're most proud of
 - How do you prioritize when you have multiple deadlines?
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### Salary Negotiation
 
@@ -455,6 +483,10 @@ Most IT interviews include behavioral questions. Use STAR format:
 - 401k match (fixed by policy)
 - When offer is already at top of band
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ### Mock Interview Practice
 
 **Free resources:**
@@ -486,6 +518,10 @@ Most IT interviews include behavioral questions. Use STAR format:
 - "What's your career path been like here?" (to individual interviewer)
 - "Why did you join this company?" (reveals culture)
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ### Red Flags to Watch For
 
 **During interviews, watch for:**
@@ -513,7 +549,9 @@ Most IT interviews include behavioral questions. Use STAR format:
 
 **Remember:** Getting rejected is normal. 20-30 applications → 5-8 phone screens → 2-3 on-sites → 1-2 offers is a typical funnel. Don't get discouraged!
 
-
 ---
 
 **Last Updated:** December 2024 | **Next Review:** March 2025
+
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**

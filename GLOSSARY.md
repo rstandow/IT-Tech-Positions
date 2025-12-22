@@ -45,6 +45,9 @@ Bureau of Labor Statistics - US government agency that tracks employment data, s
 **Startup**  
 Early-stage company, often tech-focused, with high growth potential but higher risk. Often offers equity instead of high salaries.
 
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ## Compensation & Benefits
@@ -97,6 +100,9 @@ Company pays different salaries based on where you live (SF = 100%, Austin = 85%
 
 **W2 vs 1099**  
 W2 = employee (get benefits, company withholds taxes). 1099 = contractor (no benefits, you pay all taxes, but higher hourly rate).
+
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
 
@@ -163,6 +169,9 @@ Shortcuts or quick fixes that make code harder to maintain long-term. Like finan
 **Refactoring**  
 Re-writing code to be cleaner/more maintainable without changing functionality.
 
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ## Infrastructure & Cloud
@@ -216,6 +225,9 @@ Step-by-step instructions for handling common issues or operational tasks.
 **Toil**  
 Repetitive manual work that should be automated. SREs aim to reduce toil to <50% of time.
 
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ## Data & Analytics
@@ -268,6 +280,9 @@ Process of teaching an ML model using data. Can take hours to weeks for large mo
 
 **Inference**  
 Using a trained model to make predictions on new data.
+
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
 
@@ -327,6 +342,9 @@ Job offer significantly below market rate. Usually a sign to negotiate or walk a
 
 **Backfill**  
 Hiring to replace someone who left. Often easier/faster than creating a new position.
+
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
 
@@ -405,6 +423,10 @@ Using your own product internally ("eating your own dog food"). Tests product be
 
 **Contributing:** If you encounter terms not listed here, open an issue or PR! See [CONTRIBUTING.md](CONTRIBUTING.md).
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ## Additional AI/ML Terms (Expanded)
 
 **AI vs Machine Learning**  
@@ -437,6 +459,9 @@ Converting text/images into numerical vectors (arrays of numbers). Similar meani
 **AI Agent**  
 AI system that can take actions autonomously (not just respond to prompts). Can use tools, make decisions, iterate until task complete. Example: "Book me a flight to NYC" → agent searches flights, checks calendar, books ticket without further input.
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ## Basic Tools & Environment (Essential for Beginners)
 
@@ -491,3 +516,6 @@ Software with publicly available source code that anyone can view, modify, distr
 **Kernel**  
 Core of an operating system that controls hardware. Linux kernel, Windows NT kernel. Most users never interact with it directly, but it's running everything underneath.
 
+
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**

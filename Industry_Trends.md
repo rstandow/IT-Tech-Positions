@@ -18,7 +18,6 @@
 
 ---
 
-
 Understanding the major forces impacting the US IT job market helps you make informed career decisions. This section provides an objective, non-political analysis of key trends.
 
 ---
@@ -43,6 +42,9 @@ Understanding the major forces impacting the US IT job market helps you make inf
 - Pivot toward roles emphasizing human judgment (SRE, Technical Writer, Solutions Architect)
 
 **See also:** [AI_Mastery_Analysis.md](AI_Mastery_Analysis.md) for detailed skill-by-skill breakdown.
+
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
 
@@ -80,6 +82,9 @@ The H-1B visa program allows US companies to hire foreign workers in specialty o
 
 **Non-political takeaway:** Immigration policy directly impacts IT labor supply. Restrictions increase wages for existing workers but may slow overall industry growth.
 
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ## Data Center and Infrastructure Investment
@@ -115,6 +120,9 @@ The H-1B visa program allows US companies to hire foreign workers in specialty o
 **Career Opportunity:**
 - Companies investing billions in infrastructure need engineers to design, deploy, and maintain it
 - Multi-year wave of hiring as data centers come online (2025-2028)
+
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
 
 ---
 
@@ -180,6 +188,9 @@ The H-1B visa program allows US companies to hire foreign workers in specialty o
 - Average cycle: 5-7 years between major downturns
 - **Protect yourself:** Emergency fund (6+ months expenses), keep skills current, maintain network
 
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
 ---
 
 ## Other Significant Trends
@@ -214,6 +225,10 @@ The H-1B visa program allows US companies to hire foreign workers in specialty o
 - Salaries increasing faster than average IT (high demand, low supply)
 - Government security clearance = significant salary premium ($20k-$40k+)
 - **AI defense roles emerging:** Security engineers who use AI to defend against AI-enabled attacks
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ### Cloud Consolidation
 
@@ -256,6 +271,10 @@ The H-1B visa program allows US companies to hire foreign workers in specialty o
 2. **Geographic arbitrage:** Remote work creates salary opportunities if you're in low-cost location
 3. **Infrastructure boom:** Data center buildout creating demand for SRE, cloud, network engineers
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ### For Risk Management:
 
 1. **Diversify skills:** If your role is automation-prone, add complementary skills (technical writing, system design)
@@ -289,3 +308,6 @@ IT job market remains strong with 15-25% growth projected across most roles, but
 **Last Updated:** December 2024 | **Next Review:** June 2025
 
 **Note:** This document aims to provide factual, non-political analysis of market forces. Policies and economic conditions change; use this as context, not prediction.
+
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
