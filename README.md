@@ -20,24 +20,15 @@ This document serves as the central directory for exploring career paths in Info
 
 ## Quick Links
 
-
-
-- [Getting Started in IT](Getting_Started.md) - Decision framework and first steps
-- [Homelab Guide](HOMELAB.md) - Build hands-on experience with budget-friendly setups
-
-- [Career Trends](Career_Trends.md) - Modern IT employment patterns and strategies
-
-- [Glossary](GLOSSARY.md) - Industry terms, acronyms, and slang explained
-- [Industry Trends](Industry_Trends.md) - Major forces shaping the US IT job market
-
-- [Salary Data Sources](salary_sources.md) - How salary data is gathered and updated
-
-- [AI Impact Analysis](AI_Mastery_Analysis.md) - Skills at risk and protection strategies
-
-
+- **[Getting Started in IT](Getting_Started.md)** - Decision framework and first steps
+- **[Homelab Guide](HOMELAB.md)** - 🆕 Build hands-on experience with budget-friendly setups
+- **[Career Trends](Career_Trends.md)** - Modern IT employment patterns and strategies
+- **[Glossary](GLOSSARY.md)** - Industry terms, acronyms, and slang explained
+- **[Industry Trends](Industry_Trends.md)** - Major forces shaping the US IT job market
+- **[Salary Data Sources](salary_sources.md)** - How salary data is gathered and updated
+- **[AI Impact Analysis](AI_Mastery_Analysis.md)** - Skills at risk and protection strategies
 
 ---
-
 
 ## Important Notes on Data and Roles
 
@@ -74,8 +65,7 @@ This document serves as the central directory for exploring career paths in Info
 | 18 | **[IT Support Specialist/Help Desk](Roles/IT_Support.md)** | **$46,000 - $67,000+** | **Steady** (Constant need for hands-on support) | **Stable Growth** *(~5-7%, driven by general tech reliance, despite some automation)* | OS/Hardware Troubleshooting, Network Fundamentals, Ticketing Systems, Customer Service, Documentation Skills. |
 
 ---
-**[View AI Impact Analysis and Skills Protection Strategies](AI_Mastery_Analysis.md)**  
-**[View Detailed AI Impact By Role](AI_Impact_By_Role.md)** *(Coming Soon)*
+**[View AI Impact Analysis and Skills Protection Strategies](AI_Mastery_Analysis.md)**
 
 ## References
 
