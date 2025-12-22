@@ -413,3 +413,57 @@ Converting text/images into numerical vectors (arrays of numbers). Similar meani
 **AI Agent**  
 AI system that can take actions autonomously (not just respond to prompts). Can use tools, make decisions, iterate until task complete. Example: "Book me a flight to NYC" → agent searches flights, checks calendar, books ticket without further input.
 
+
+## Basic Tools & Environment (Essential for Beginners)
+
+**CLI (Command Line Interface)**  
+Text-based interface for controlling your computer/servers. You type commands instead of clicking buttons. Examples: Terminal on Mac/Linux, Command Prompt/PowerShell on Windows. Essential skill for IT roles - most server work is CLI-only.
+
+**Terminal / Shell**  
+Program that lets you access the CLI. "Terminal" = the window/application. "Shell" = the program running inside (bash, zsh, PowerShell). Common shells: bash (Linux default), zsh (Mac default), PowerShell (Windows).
+
+**IDE (Integrated Development Environment)**  
+Software for writing code with built-in tools (debugger, autocomplete, git integration). Examples: VS Code (most popular, free), PyCharm (Python), IntelliJ IDEA (Java). Better than basic text editors for development.
+
+**Text Editor**  
+Simple program for editing code/config files. Vim, Nano (terminal-based), VS Code, Sublime Text, Notepad++ (GUI). Vim learning curve steep but extremely powerful - worth learning basics.
+
+**SSH (Secure Shell)**  
+Protocol for securely connecting to remote servers via CLI. Example: `ssh user@server.com` - you can now control that server as if you're sitting at it. Essential for DevOps/SRE/System Admin roles.
+
+**Package Manager**  
+Tool for installing/updating software via command line. Examples: `apt` (Ubuntu/Debian), `yum`/`dnf` (RedHat/CentOS), `brew` (Mac), `chocolatey` (Windows). Faster than downloading installers manually.
+
+**Localhost / 127.0.0.1**  
+"This computer" - refers to the machine you're currently on. `localhost` and `127.0.0.1` both mean "my own computer." Used when testing web apps locally before deploying.
+
+**Port**  
+Virtual door for network traffic. Web = port 80 (HTTP) or 443 (HTTPS), SSH = port 22, MySQL = port 3306. When you run a web server locally, it might run on `localhost:8080` (port 8080).
+
+**Environment Variables**  
+Variables your OS/applications can access. Example: `PATH` tells your computer where to find programs, `API_KEY` stores secret keys. Set with `export VAR=value` (Linux/Mac) or `$env:VAR="value"` (Windows PowerShell).
+
+**Path / $PATH**  
+List of directories where your OS looks for executable programs. When you type `python`, OS searches $PATH directories. Adding to PATH = making a program accessible from anywhere in terminal.
+
+**Sudo / Administrator**  
+"Superuser do" (Linux/Mac) - run commands with admin privileges. Windows equivalent: "Run as Administrator." Needed for system-level changes (installing software, editing system files). Be careful - you can break things!
+
+**Cron / Cron Job**  
+Linux/Mac scheduler for running commands automatically. Example: backup database every night at 2am. Windows equivalent: Task Scheduler. Used heavily in automation.
+
+**Logs / Log Files**  
+Text files recording what a program did (errors, warnings, info). Stored in `/var/log/` (Linux) or `C:\Windows\Logs\` (Windows). First place to look when troubleshooting.
+
+**Config File / Configuration**  
+File controlling how software behaves. Usually `.conf`, `.ini`, `.yaml`, `.json` formats. Example: `nginx.conf` controls web server settings. Understanding config files = key IT skill.
+
+**Dependency**  
+Software that another program needs to work. Python libraries, npm packages, system libraries. "Dependency hell" = when version conflicts between dependencies cause problems.
+
+**Open Source**  
+Software with publicly available source code that anyone can view, modify, distribute. Examples: Linux, Python, Kubernetes. Free to use, community-driven. Opposite: proprietary/closed-source.
+
+**Kernel**  
+Core of an operating system that controls hardware. Linux kernel, Windows NT kernel. Most users never interact with it directly, but it's running everything underneath.
+

@@ -23,6 +23,7 @@ This document serves as the central directory for exploring career paths in Info
 
 
 - [Getting Started in IT](Getting_Started.md) - Decision framework and first steps
+- [Homelab Guide](HOMELAB.md) - Build hands-on experience with budget-friendly setups
 
 - [Career Trends](Career_Trends.md) - Modern IT employment patterns and strategies
 
