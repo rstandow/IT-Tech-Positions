@@ -8,6 +8,7 @@ Use this checklist to keep salary data, growth projections, and career guidance 
 - [ ] Spot-check high-volatility roles (AI/ML Engineer, Prompt Engineer, Data Engineer, SRE)
 - [ ] Check levels.fyi and Glassdoor for significant salary shifts (>10%)
 - [ ] Update any roles with major market changes
+- [ ] **Review Industry_Trends.md** - Check for H-1B policy changes, data center news, tech layoffs, AI developments
 - [ ] Update date references from "early 2025" to current quarter
 - [ ] Review AI Mastery Analysis percentages
 
@@ -62,6 +63,7 @@ Use this checklist to keep salary data, growth projections, and career guidance 
 - [ ] README.md - salary table for all 18 roles
 - [ ] AI_Mastery_Analysis.md - mastery percentages
 - [ ] Career_Trends.md - job tenure patterns, remote work trends
+- [ ] **Industry_Trends.md** - H-1B policy, data centers, tech layoffs, AI impact, cybersecurity threats
 
 ### Medium Priority (Update Semi-Annually)
 - [ ] All 18 role files in `/Roles/` - salary snapshots and outlook
