@@ -44,6 +44,10 @@
 
 Building a homelab is one of the best ways to gain hands-on IT experience without risking production systems. This guide provides budget-friendly setups and skills to practice.
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ---
 
 ## Why Build a Homelab?
@@ -64,6 +68,10 @@ Building a homelab is one of the best ways to gain hands-on IT experience withou
 - Help Desk → System Admin: Show you can manage servers
 - System Admin → DevOps: Demonstrate CI/CD pipelines and automation
 - Developer → SRE: Prove you understand infrastructure and monitoring
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ---
 
@@ -140,6 +148,10 @@ Building a homelab is one of the best ways to gain hands-on IT experience withou
 - Monitoring dashboard for your homelab
 - Automated backup system
 - Self-hosted Git server with Gitea
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ---
 
@@ -246,6 +258,10 @@ Building a homelab is one of the best ways to gain hands-on IT experience withou
 - Multi-region disaster recovery simulation
 - Cost optimization documentation
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ---
 
 ## Homelab Learning Path by Career Goal
@@ -328,6 +344,10 @@ Building a homelab is one of the best ways to gain hands-on IT experience withou
 
 **Timeline:** 6-12 months
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ---
 
 ## Cost Breakdown by Skill Level
@@ -338,6 +358,10 @@ Building a homelab is one of the best ways to gain hands-on IT experience withou
 | **Entry IT Support** | $300-$500 | Used business PC or Pi cluster | Virtualization, networking, basic services |
 | **Mid-Career Pivot** | $1,000-$1,500 | Enterprise server + networking | Kubernetes, automation, production simulation |
 | **Advanced / SRE** | $2,000-$3,000 | Multiple servers, NAS, UPS | HA clusters, disaster recovery, scale testing |
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ---
 
@@ -358,6 +382,10 @@ A: Yes, but: Free tier is limited, costs creep up fast, and you don't learn hard
 **Q: How do I avoid "tutorial hell"?**  
 A: Build projects with end goals. "Set up monitoring" is vague. "Build dashboard showing uptime of 5 services with alerts" is a project. Break things intentionally and fix them.
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ---
 
 ## Progression Timeline
@@ -368,6 +396,10 @@ A: Build projects with end goals. "Set up monitoring" is vague. "Build dashboard
 **Months 10-12:** Production simulation (HA, disaster recovery, chaos engineering)
 
 **After 12 months:** You'll have portfolio projects and real experience to discuss in interviews. You'll know more than many people with certifications alone.
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ---
 
@@ -389,6 +421,10 @@ A: Build projects with end goals. "Set up monitoring" is vague. "Build dashboard
 - ServerMonkey, TechMikeNY (refurbished enterprise gear)
 - Micro Center (if near you - open box deals)
 
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
+
 ---
 
 ## Key Takeaway
@@ -400,6 +436,10 @@ Start small, break things, fix them, and document your learning. Your homelab is
 ---
 
 **Last Updated:** December 2024 | **Next Review:** June 2025
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
 
 ---
 
@@ -2075,3 +2115,8 @@ Using these free tools instead of paid equivalents saves:
 
 **Last Updated:** December 2024
 
+
+
+⬆️ **[Back to Table of Contents](#table-of-contents)**
+
+---
